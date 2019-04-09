@@ -85,7 +85,7 @@ $ ./XipetotecClient <USER> <PASSWORD>
 License
 ----
 
-GNU Public
+GNU General Public License v3.0
 
 
 **Free Software**
