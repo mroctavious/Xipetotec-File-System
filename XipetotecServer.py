@@ -31,7 +31,7 @@ import os
 class XipetotecFSServer:
 
     ##Constructor
-    def __init__(self, host="localhost", user="xipetotec", password="Mexico123", db="xipetotecFS", port=9999 ):
+    def __init__(self, host="localhost", user="xipetotec", password="Mexico123!", db="xipetotecFS", port=9999 ):
         self.db = pymysql.connect( host, user, password, db )
         self.cursor = self.db.cursor()
         self.server_socket = socket.socket()
