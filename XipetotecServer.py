@@ -38,7 +38,7 @@ class XipetotecFSServer:
         self.server_socket.bind( ( 'localhost', port ) )
         self.server_socket.listen( 16 )
         self.CHUNK_SIZE=512
-        self.mainDirectory="/Users/mroctavious/Documents/ServerXipetotec"
+        self.mainDirectory="/opt/Xipetotec/files"
 
 
     ##Destructor
