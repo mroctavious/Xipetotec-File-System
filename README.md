@@ -59,6 +59,22 @@ Run in background so you can log out later:
 $ nohup XipetotecServer 2&>1 > log.txt &
 ```
 
+### Client
+To compile the client you must run the following command:
+```sh
+$ g++ XipetotecFS.cpp -o XipetotecClient
+```
+
+Now create the Downloads folder:
+```sh
+$ mkdir Downloads
+```
+Move all your files you want to transfer to the client folder and enjoy.
+
+To start the client, you must run with the following arguments:
+```sh
+$ ./XipetotecClient <USER> <PASSWORD>
+```
 
 License
 ----
