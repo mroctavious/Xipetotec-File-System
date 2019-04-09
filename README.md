@@ -36,8 +36,14 @@ Now go to the folder and change the permission of the installation script and ru
 ```sh
 $ cd Xipetotec-File-System
 $ chmod 755 InstallServer.sh
+```
+
+Now go log in as root user.
+```sh
+$ sudo su
 $ ./InstallServer.sh
 ```
+
 If you don't have installed mysql server, it will install it for you but it will prompt for a root password, please remember the password because you will use it later.
 
 In case you already have installed mysql server, you must have the root password to continue.
